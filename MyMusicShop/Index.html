@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Music Shop</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="myheader">
+        <h1>Welcome To My Music Shop!</h1>
+        <div class="cart-and-btns">
+            <input type="button" value="Sign up" class="btn btn-danger sign1" style="margin-right: 5px;">
+            <input type="button" value="Sign in" class="btn btn-primary sign2">
+            <button class="btn btn-default">
+            <i class="fa fa-shopping-cart cart" aria-hidden="true" role="button"></i>
+            <span id="quantity" style="color: white">0</span></button>
+            <span id="total">$0</span>
+        </div>
+    </header>
+    <main id="pagebody">
+        <section class="Greeting">
+
+            <h2>Order your music tech from anywhere and anytime</h2>
+            <p>We present you a great selection of products and great prices</p>
+
+        </section>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active text-1">
+                    <div>
+                        <h2>Start producing today.<br> Get your equipment now!</h2>
+                        <input type="button" value="Sign in/ Sign up" class="btn btn-danger sign1">
+                    </div>
+                </div>
+                <div class="carousel-item text-2">
+                    <div>
+                        <h2>Order from anywhere and at anytime</h2>
+                        <input type="button" value="Sign in/ Sign up" class="btn btn-danger sign1">
+                    </div>
+                </div>
+                <div class="carousel-item text-3">
+                    <div>
+                        <h2>We present high quality products for a great price</h2>
+                        <input type="button" value="Sign in/ Sign up" class="btn btn-danger sign1">
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!--------------------Products Section---------------------->
+
+        <section id="product-section">
+
+            <!---------------Best Seller Section----------------------->
+
+            <h3>___________________________ Best Sellers ___________________________</h3>
+            <div class="best-seller products">
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSXKLmyuLVnEOuYJZfbqmyK_u3r2zAH1_ftD3dQsm5nmw0cHo7S&usqp=CAU" alt="white headphones white background" class="product-img">
+                    <h6>Beats solo3 Headphones</h6>
+                    <p>$300</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="300">
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSAtJESPdncgU8DGaNiab0Zke90OhM0NxB7bbhuR_poYpk3o8Ws&usqp=CAU" alt="" class="product-img">
+                    <h6>SONY wireless Headphones</h6>
+                    <p>$140</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="140">
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsRVeIcem0xwXJA9-nRgTpazbUcVEItTp9ZyTPBK-0uHqPn2p3&usqp=CAU" alt="" class="product-img">
+                    <h6>AKAI midi keyboard 21 keys</h6>
+                    <p>$250</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="250">
+                </div>
+                <div class="product-card">
+                    <img src="https://cdn.shopify.com/s/files/1/0251/4773/6169/products/VTOP_U2AUDIO7-1-N_External_7.1_USB_Sound_Card_02_500x500.jpg?v=1577859594" alt="" class="product-img">
+                    <h6>DigitalLife USB SoundCard</h6>
+                    <p>$100</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="100">
+                </div>
+            </div>
+
+            <!-------------------New Products Section-------------------------->
+
+            <h3 style="padding-top: 100px">___________________________ New Products ___________________________</h3>
+            <div class="newproducts products">
+                <div class="product-card">
+                    <img src="https://p6i4b6w4.stackpathcdn.com/pub/media/catalog/product/cache/710x550/106805a.png" class="product-img">
+                    <h6>Focusrite Scarlett SoundCard</h6>
+                    <p>$250</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="250">
+                </div>
+                <div class="product-card">
+                    <img src="https://www.truetop5review.com/wp-content/uploads/2019/12/1-103.jpg" alt="" class="product-img">
+                    <h6>AKAI mpk mini mk2</h6>
+                    <p>$350</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="350">
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQh-d72YuKM8goAxQ8YtiKfMsX1BjCJXoXJpnKJq3dj0wQRIMoP&usqp=CAU" alt="" class="product-img">
+                    <h6>LIVE v8 SoundCard</h6>
+                    <p>$235</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="235">
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSH3Me97Ym0xUm5QUe5fA9Lnbgt0jTY9ep3TAUaeJvX0HA1gRwH&usqp=CAU" alt="" class="product-img">
+                    <h6>NUMARK party Mix</h6>
+                    <p>$500</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="500">
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSXKLmyuLVnEOuYJZfbqmyK_u3r2zAH1_ftD3dQsm5nmw0cHo7S&usqp=CAU" alt="white headphones white background" class="product-img">
+                    <h6>Beats solo3 Headphones</h6>
+                    <p>$300</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="300">
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSAtJESPdncgU8DGaNiab0Zke90OhM0NxB7bbhuR_poYpk3o8Ws&usqp=CAU" alt="" class="product-img">
+                    <h6>SONY wireless Headphones</h6>
+                    <p>$140</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="140">
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNYl5p5P2CMvHn9i2ngdpzjFlf6E92xGbC3cctAu9Tw4GAL7uN&usqp=CAU" alt="" class="product-img">
+                    <h6>5.1 Speakers</h6>
+                    <p>$180</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="180">
+                </div>
+                <div class="product-card">
+                    <img src="https://www.adorama.com/images/Large/makeyst49mk3.jpg" alt="" class="product-img">
+                    <h6>M-Audio Keystation 49</h6>
+                    <p>$400</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="400">
+                </div>
+            </div>
+
+            <!-------------------USB SoundCard Section------------------------>
+
+            <h3 style="padding-top: 100px">___________________________ USB SoundCards ___________________________</h3>
+            <div class="USB-SoundCards products">
+                <div class="product-card">
+                    <img src="https://p6i4b6w4.stackpathcdn.com/pub/media/catalog/product/cache/710x550/106805a.png" class="product-img">
+                    <h6>Focusrite Scarlett SoundCard</h6>
+                    <p>$250</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="250">
+                </div>
+                <div class="product-card">
+                    <img src="https://cdn.shopify.com/s/files/1/0051/3025/6484/products/Professional-USB-Sound-Card-Plug-Play-USB-Audio-Interface-External-Computer-PC-Phone-Sound-Card-for_800x800.jpg?v=1561702847" alt="" class="product-img">
+                    <h6>SOVAW'N USB SoundCard</h6>
+                    <p>$150</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="150">
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQh-d72YuKM8goAxQ8YtiKfMsX1BjCJXoXJpnKJq3dj0wQRIMoP&usqp=CAU" alt="" class="product-img">
+                    <h6>LIVE v8 SoundCard</h6>
+                    <p>$235</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="235">
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTU4Get1rMgEEkgs-i1QekjQ5vWH7XW22-jsL-bDAtObkT0O1S3&usqp=CAU" alt="" class="product-img">
+                    <h6>ICON Upod Pro</h6>
+                    <p>$185</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="185">
+                </div>
+                <div class="product-card">
+                    <img src="https://cdn.shopify.com/s/files/1/0251/4773/6169/products/VTOP_U2AUDIO7-1-N_External_7.1_USB_Sound_Card_02_500x500.jpg?v=1577859594" alt="" class="product-img">
+                    <h6>DigitalLife USB SoundCard</h6>
+                    <p>$100</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="100">
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSSp85w0xn7FpYYnQvbXO3MKI5_W9B-1S6B2luApXKBF6tr1Z38&usqp=CAU" alt="" class="product-img">
+                    <h6>USB Mini-SoundCard</h6>
+                    <p>$35</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="35">
+                </div>
+                <div class="product-card">
+                    <img src="https://static.bhphoto.com/images/images1000x1000/1315833804_820950.jpg" alt="" class="product-img">
+                    <h6>American Audio Mixer</h6>
+                    <p>$550</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="550">
+                </div>
+                <div class="product-card">
+                    <img src="https://www.adorama.com/images/Large/djx10.jpg" alt="" class="product-img">
+                    <h6>DJ.Tech Mixer</h6>
+                    <p>$700</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="700">
+                </div>
+
+            </div>
+            <!-------------------Midi Keyboard Section------------------------>
+
+            <h3 style="padding-top: 100px">___________________________ MIDI Keyboards ___________________________</h3>
+            <div class="Midi-Keyboard products">
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsRVeIcem0xwXJA9-nRgTpazbUcVEItTp9ZyTPBK-0uHqPn2p3&usqp=CAU" alt="" class="product-img">
+                    <h6>AKAI midi keyboard 21 keys</h6>
+                    <p>$250</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="250">
+                </div>
+                <div class="product-card">
+                    <img src="https://www.truetop5review.com/wp-content/uploads/2019/12/1-103.jpg" alt="" class="product-img">
+                    <h6>AKAI mpk mini mk2</h6>
+                    <p>$350</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="350">
+                </div>
+                <div class="product-card">
+                    <img src="https://www.adorama.com/images/Large/makeyst49mk3.jpg" alt="" class="product-img">
+                    <h6>M-Audio Keystation 49</h6>
+                    <p>$400</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="400">
+                </div>
+                <div class="product-card">
+                    <img src="https://www.westenddj.co.uk/media/catalog/product/cache/3/image/1000x/040ec09b1e35df139433887a97daa66f/o/x/oxygen49-2014.jpg" alt="" class="product-img">
+                    <h6>M-Audio Oxygen 49</h6>
+                    <p>$600</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="600">
+                </div>
+
+            </div>
+            <!-------------------Midi Keyboard Section------------------------>
+
+            <h3 style="padding-top: 100px">___________________________ Headphones and Speakers ___________________________</h3>
+            <div class="Headphones products">
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSXKLmyuLVnEOuYJZfbqmyK_u3r2zAH1_ftD3dQsm5nmw0cHo7S&usqp=CAU" alt="white headphones white background" class="product-img">
+                    <h6>Beats solo3 Headphones</h6>
+                    <p>$300</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="300">
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSAtJESPdncgU8DGaNiab0Zke90OhM0NxB7bbhuR_poYpk3o8Ws&usqp=CAU" alt="" class="product-img">
+                    <h6>SONY wireless Headphones</h6>
+                    <p>$140</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="140">
+                </div>
+                <div class="product-card">
+                    <img src="https://static.bhphoto.com/images/images2500x2500/1542671130_1436926.jpg" alt="" class="product-img">
+                    <h6>Sennheiser MOMENTUM</h6>
+                    <p>$300</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="300">
+                </div>
+                <div class="product-card">
+                    <img src="https://assets.sennheiser.com/images/2990/all/square/9781/square_list_zoom_HD_800_black-sq-01-sennheiser.jpg" alt="" class="product-img">
+                    <h6>Sennheiser Headphones</h6>
+                    <p>$400</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="400">
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNYl5p5P2CMvHn9i2ngdpzjFlf6E92xGbC3cctAu9Tw4GAL7uN&usqp=CAU" alt="" class="product-img">
+                    <h6>5.1 Speakers</h6>
+                    <p>$180</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="180">
+                </div>
+                <div class="product-card">
+                    <img src="https://www.musicmatter.co.uk/media/catalog/product/cache/1/image/730x/9df78eab33525d08d6e5fb8d27136e95/k/r/krk_rokit_classic_5_pair.jpg" alt="" class="product-img">
+                    <h6>KRK Classic 5</h6>
+                    <p>$650</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="650">
+                </div>
+                <div class="product-card">
+                    <img src="https://imgaz3.staticbg.com/thumb/view/oaupload/banggood/images/90/85/e1f7dfd5-8b83-4084-820b-dc89a294472c.jpg" alt="" class="product-img">
+                    <h6>Kingneed S403 HIFI</h6>
+                    <p>$90</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="90">
+                </div>
+                <div class="product-card">
+                    <img src="https://www.hbh-woolacotts.co.uk/media/products/SRSXB12B_original.jpg" alt="" class="product-img">
+                    <h6>SONY SRSXB12B </h6>
+                    <p>$95</p>
+                    <input type="button" class="btn btn-danger addbtn" value="Order" data-price="95">
+                </div>
+
+            </div>
+        </section>
+
+        <!---------------Modal Boxes-------------->
+
+        <!------------- The Form Modal ------------>
+        <div id="myForm" class="modal">
+
+            <div class="modal-content">
+                <span class="close2">&times;</span>
+                <div class="sign">
+                    <form style="border:1px solid #ccc">
+                        <div class="container">
+                            <h1>Sign Up</h1>
+                            <p>Please fill in this form to create an account.</p>
+                            <hr>
+                            <label for="text"><b>Full Name</b></label>
+                            <input type="text" placeholder="Enter your full Name" name="email" required>
+
+                            <label for="uname"><b>Username</b></label>
+                            <input type="text" placeholder="Enter Username" name="uname" required>
+
+                            <label for="email"><b>Email</b></label>
+                            <input type="text" placeholder="Enter Email" name="email" required>
+
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" id="psw" required minlength="8">
+
+                            <label for="psw-repeat"><b>Repeat Password</b></label>
+                            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required minlength="8">
+
+                            <label>
+                        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                      </label>
+
+                            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                            <div class="clearfix">
+                                <button type="button" class="cancelbtn" id="cancelbtn1 ">Cancel</button>
+                                <button type="submit" class="signupbtn">Sign Up</button>
+                            </div>
+                            <p>Got an account? <a href="#" role="button" id="modal-change">Click here</a></p>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+        <div id="myForm2" class="modal">
+
+            <div class="modal-content">
+                <span class="close3">&times;</span>
+                <div class="sign">
+                    <form>
+                        <h1>Sign In</h1>
+                        <p>Our Products await you.</p>
+                        <hr>
+                        <div class="container">
+                            <label for="uname"><b>Username</b></label>
+                            <input type="text" placeholder="Enter Username" name="uname" required>
+
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+
+                            <button type="submit">Login</button>
+                            <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                      </label>
+                        </div>
+
+                        <div class="container log-cancel" style="background-color:#f1f1f1">
+                            <button type="button" class="cancelbtn-2" id="cancelbtn2">Cancel</button>
+                            <span class="psw">Forgot <a href="#">password?</a></span>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!------------- The Cart Modal ------------>
+        <div id="myCart" class="modal">
+
+
+            <div class="modal-content">
+                <span class="close">&times;</span>
+
+                <div id="cart-modal">
+                    <p class="cart-text">Your cart is empty :(</p>
+                </div>
+                <div class="cart-total">
+                    <div>
+                        <input type="button" class="btn btn-danger" value="Checkout">
+                    </div>
+                    <div>
+                        <span id="quantity2" style="color: rgba(0, 0, 0, 0.89)">Quantity: 0</span><br>
+                        <span id="total2">Total Price: $0</span>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+        <section class="marks products">
+            <h3 style="padding-top: 100px">___________________________ Who we work with ___________________________</h3>
+            <img src="https://pngimg.com/uploads/sony_logo/sony_logo_PNG2.png" alt="" width="200px" height="50px">
+            <img src="https://www.freepnglogos.com/uploads/beats-png-logo/new-beats-saudio-png-logo-0.png" alt="" width="250px" height="50px">
+            <img src="https://pluspng.com/img-png/sennheiser-png-2017-present-sennheiser-2017-1821.png" alt="" width="200px" height="50px">
+            <img src="https://www.kindpng.com/picc/m/28-289644_yamaha-music-logo-png-transparent-png.png" alt="" width="200px" height="50px">
+        </section>
+
+    </main>
+    <footer id="myfooter">
+        <a href="#">NotYourUsualShop@gmail.com</a>
+
+        <div class="socials">
+            <a href="#"><i class="fa fa-facebook"  aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram"  aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter"  aria-hidden="true"></i></a>
+        </div>
+        <div>
+            <span>Created By Oussema Ben Dahmen</span>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b59c1b5a95.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
